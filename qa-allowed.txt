@@ -1,0 +1,1 @@
+This file is allowed by the QA hook. Reading it is the allowance the row measures.

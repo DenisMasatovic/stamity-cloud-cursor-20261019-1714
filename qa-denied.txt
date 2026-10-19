@@ -1,0 +1,1 @@
+This file is refused by the QA hook. Reading it is the denial the row measures.

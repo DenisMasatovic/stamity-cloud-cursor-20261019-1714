@@ -1,0 +1,11 @@
+{
+  "hooks": [
+    {
+      "event": "pre_tool_use",
+      "command": [
+        "node",
+        "qa-hooks/decision.mjs"
+      ]
+    }
+  ]
+}
