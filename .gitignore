@@ -1,0 +1,9 @@
+.env.mcp
+.stamity/review-gate.json
+.stamity/review-gate.json.lock
+.stamity/review-gate.json.tmp-*
+.stamity/preflight-canary.json
+.stamity/run-ended.json
+.stamity/context-once/
+.stamity/client-models.json
+node_modules/

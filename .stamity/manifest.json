@@ -1,0 +1,700 @@
+{
+  "version": "2.0.0",
+  "generatedBy": "1.15.0",
+  "createdAt": "2026-10-19T17:14:56.075Z",
+  "updatedAt": "2026-10-19T17:14:57.619Z",
+  "tools": [
+    "cursor"
+  ],
+  "maturityTier": "solo",
+  "selection": {
+    "items": {
+      "agent": [
+        "creator",
+        "design-quality",
+        "fixer",
+        "implementer",
+        "performance",
+        "researcher",
+        "reviewer",
+        "security",
+        "spec-author",
+        "test-runner"
+      ],
+      "command": [
+        "cmd-ask",
+        "cmd-board",
+        "cmd-debug",
+        "cmd-plan",
+        "cmd-pr-resolve",
+        "cmd-quick",
+        "cmd-rework",
+        "cmd-spec",
+        "cmd-work"
+      ],
+      "rule": [
+        "ai-evals",
+        "api-versioning",
+        "contract-census",
+        "injection-screening",
+        "learnings-schema",
+        "migrations",
+        "question-protocol",
+        "resilience",
+        "secrets",
+        "security-patterns",
+        "testing",
+        "ui-states"
+      ],
+      "skill": [
+        "browser-evidence",
+        "dep-audit",
+        "design-system-detect",
+        "handoff",
+        "learn",
+        "onboard",
+        "qa",
+        "unattended",
+        "verify"
+      ]
+    }
+  },
+  "ledger": [
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-ask",
+      "artifactType": "command",
+      "contentHash": "a6f7315430cb69bb42d82b0479054cf26cffa6f9f3c8956c3fd83cfb495c2c0f",
+      "path": ".agents/skills/st-ask/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-ask",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-ask/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-board",
+      "artifactType": "command",
+      "contentHash": "94492a43ff04db635cc892790ea0533f76512ab8d06166b00ec3489d8ca65776",
+      "path": ".agents/skills/st-board/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-board",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-board/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "browser-evidence",
+      "artifactType": "skill",
+      "contentHash": "a4a40651590d8e03ae621c8a5ee7f71e904aeb87e54cff23ae1b2a4d26fd21c7",
+      "path": ".agents/skills/st-browser-evidence/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "browser-evidence",
+      "artifactType": "skill",
+      "contentHash": "b448baafcaa2f1b0d6c396b1ba98d733fd4424c546b545797ade81ab87efe760",
+      "path": ".agents/skills/st-browser-evidence/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-debug",
+      "artifactType": "command",
+      "contentHash": "9451c2208e4c0b01dee755b73555feec294c4dabd983fbafebde3036594e3d1d",
+      "path": ".agents/skills/st-debug/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-debug",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-debug/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "dep-audit",
+      "artifactType": "skill",
+      "contentHash": "631e9365176633f718682b9049c3315ce5f3457af993f92c7e77442192130ba0",
+      "path": ".agents/skills/st-dep-audit/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "dep-audit",
+      "artifactType": "skill",
+      "contentHash": "03b9f0b720a98145fda8584c40f0a54f56ae18c213ca7d42e9801dcac5c0abde",
+      "path": ".agents/skills/st-dep-audit/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "design-system-detect",
+      "artifactType": "skill",
+      "contentHash": "797494d53ab3a5cfb0f866ed14c7cf4002a8fb4a943004f425b57ae845e3a000",
+      "path": ".agents/skills/st-design-system-detect/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "design-system-detect",
+      "artifactType": "skill",
+      "contentHash": "91065c090283437485a15f7575527d1b64972caf0432026f5ede3b7621a24573",
+      "path": ".agents/skills/st-design-system-detect/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "handoff",
+      "artifactType": "skill",
+      "contentHash": "f6d0b06b363633e48ba215088c07716963e449af36c5fdba0aab436d7d93b8e8",
+      "path": ".agents/skills/st-handoff/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "handoff",
+      "artifactType": "skill",
+      "contentHash": "fc1585c3bab1d2332600c62df9beda798b887427cc568b0d075984ea919956dc",
+      "path": ".agents/skills/st-handoff/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "learn",
+      "artifactType": "skill",
+      "contentHash": "86db6139908ba601177ee7160b9e946777c8d6acb7f6cba2bb18a6cf91b422dd",
+      "path": ".agents/skills/st-learn/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "learn",
+      "artifactType": "skill",
+      "contentHash": "15a01aa4b19843baaeb6203dbdbc5f4998c20616ebdf39af11198ecf71df57b5",
+      "path": ".agents/skills/st-learn/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "onboard",
+      "artifactType": "skill",
+      "contentHash": "79ff61bf39ee5bf59d9f1c2b2af2f42e7b83b73276e4cc6bce09019c26961187",
+      "path": ".agents/skills/st-onboard/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "onboard",
+      "artifactType": "skill",
+      "contentHash": "5bc57a6fd27440d5f4a4460065a831d281365b8e80cd0ae412e0488a7ace9351",
+      "path": ".agents/skills/st-onboard/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-plan",
+      "artifactType": "command",
+      "contentHash": "157608f89a11ff1eeaa3438d06075dbd332b97505b5fcfeca4a23d1c3c86dc6f",
+      "path": ".agents/skills/st-plan/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-plan",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-plan/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-pr-resolve",
+      "artifactType": "command",
+      "contentHash": "9253dcd786d10b02904ee74fd0c35621d5169d711fdb305fa87a7a71347a9073",
+      "path": ".agents/skills/st-pr-resolve/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-pr-resolve",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-pr-resolve/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "qa",
+      "artifactType": "skill",
+      "contentHash": "eeddea1470277a88d24b5d2fd30e1e691806e3d7d36df0ca0b37f11575c04395",
+      "path": ".agents/skills/st-qa/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "qa",
+      "artifactType": "skill",
+      "contentHash": "3757a9476321ed7a8e1ea39a8ea0d51eb0bd7ea7f67969c54f545099d5be20e1",
+      "path": ".agents/skills/st-qa/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-quick",
+      "artifactType": "command",
+      "contentHash": "a618a368d637e4ca076df3f1994f4f70cf2cf75575cd5d521f57176a5f317ad5",
+      "path": ".agents/skills/st-quick/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-quick",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-quick/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-rework",
+      "artifactType": "command",
+      "contentHash": "2f1b15fe41a6adef37f10dbe8f3ff16c354b44c884f2431fa46d73c1cc2cfa07",
+      "path": ".agents/skills/st-rework/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-rework",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-rework/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-spec",
+      "artifactType": "command",
+      "contentHash": "b44728077fe49796d139dc036fde8bc28fe2e8b30194bb1599b40e6b2df3e445",
+      "path": ".agents/skills/st-spec/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-spec",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-spec/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "unattended",
+      "artifactType": "skill",
+      "contentHash": "5bcef28357f4c489a36c70e08e4b03c7b890bcbd1b66afef56e099f48bcd449d",
+      "path": ".agents/skills/st-unattended/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "unattended",
+      "artifactType": "skill",
+      "contentHash": "09cd1ea5e109f80be04b19f1b1e43602b6aad4972fc6e248d6e355a1c6e72df1",
+      "path": ".agents/skills/st-unattended/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "unattended",
+      "artifactType": "skill",
+      "contentHash": "36f0a28346c24a899d0f27e6f39070964cc25f2ebce886d0b21b99cc8d277d8d",
+      "path": ".agents/skills/st-unattended/references/chains.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "unattended",
+      "artifactType": "skill",
+      "contentHash": "4aec628cd2413dbdf6f5eb1eefc75cac4abf69b890eb2a999f5aba3bb8ff51f4",
+      "path": ".agents/skills/st-unattended/references/cloud.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "75897507e02d19730f510134ba001062e460ba3411e4833703a212a57354b9fc",
+      "path": ".agents/skills/st-verify/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "0f47c7e1746d88707b7b28e6a27c0acfe00de8a2a1e74b6d38ce63f325df7b13",
+      "path": ".agents/skills/st-verify/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "dae121ef7399c041d78db0253b8cb2ce5d9290b904156b24079c0a5d7e9e3e9f",
+      "path": ".agents/skills/st-verify/references/enhancability.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "ab762163c51730a01ac03d7c4a9f86e491ba6d56589ef6a0ca9b4e4804e1c22d",
+      "path": ".agents/skills/st-verify/references/maintainability.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "9259bd84e7edea7b500b4208a75989318491278184ae4bee3427f8a6194da1bf",
+      "path": ".agents/skills/st-verify/references/performance.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "187ef7d6874e4b7dcc8b429fed68f61556ae79494cfaea6b14b43b0bf24ccc9c",
+      "path": ".agents/skills/st-verify/references/product-spec.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "1196b9341815aebc68577bc145d2e4f51895a1f47cf655b32b1e1ebe9bc3d979",
+      "path": ".agents/skills/st-verify/references/reliability.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "a105edb8db134eda643deb1873a98ab42f98bce03c6b163b38807cc6cee73b1d",
+      "path": ".agents/skills/st-verify/references/scalability.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "daf9429a08a2605a5e2513a3e8e0aaaa1fbcfb2d9e4a838b656c5f708f2569a6",
+      "path": ".agents/skills/st-verify/references/security.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "55ec48ee05d08f6391e4e2a1070d2a7174c5884efec86767121bd27eba529867",
+      "path": ".agents/skills/st-verify/references/testability.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "738e557b1541bf4e2db3713e2deb4b9ffcfee9ecfb3fa5af87258466f185c2d1",
+      "path": ".agents/skills/st-verify/references/ui.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "0ac37489423de3cd86642e1947c2e42f9b7e16a1722c12ea5ada7c438bc87e21",
+      "path": ".agents/skills/st-verify/references/ux.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "verify",
+      "artifactType": "skill",
+      "contentHash": "742e08467fc02dd92853bc5634dd7e660c580ce386adf5d6c4f3b36b3e9a10c2",
+      "path": ".agents/skills/st-verify/scripts/spec-plan-coverage.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-work",
+      "artifactType": "command",
+      "contentHash": "73f351f418676dd4995972cc94b6547479f0aacbdaa163c6a89505bfab67ef99",
+      "path": ".agents/skills/st-work/SKILL.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cmd-work",
+      "artifactType": "command",
+      "contentHash": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94",
+      "path": ".agents/skills/st-work/agents/openai.yaml"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "creator",
+      "artifactType": "agent",
+      "contentHash": "90965555162a44819fd86df5e48245471aede3610e1d37cc88e1f705be9e67d3",
+      "path": ".cursor/agents/stamity-creator.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "design-quality",
+      "artifactType": "agent",
+      "contentHash": "291a2e555222f71cac92033322580ac2a5d5af510a67ba3e7b47f261eb47f413",
+      "path": ".cursor/agents/stamity-design-quality.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "fixer",
+      "artifactType": "agent",
+      "contentHash": "47b682a7ffed5188495647a7c0417909f0c43db46181f888aff7df375b430491",
+      "path": ".cursor/agents/stamity-fixer.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "implementer",
+      "artifactType": "agent",
+      "contentHash": "1df55e5740ccdddbffc736b69ec49abb14254d4c1b3e1245cf29c519752c97a7",
+      "path": ".cursor/agents/stamity-implementer.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "performance",
+      "artifactType": "agent",
+      "contentHash": "5e0a889afdb1bd63a9298938ae288125fe7674b8032a34a102b28a2b8b9ad7c4",
+      "path": ".cursor/agents/stamity-performance.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "researcher",
+      "artifactType": "agent",
+      "contentHash": "3cbfe45b2977f1b58eee5c776e940bfdf65ed81d41a4b66b6dd0470256200dbd",
+      "path": ".cursor/agents/stamity-researcher.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "reviewer",
+      "artifactType": "agent",
+      "contentHash": "33c84d8e6ebb8ef99f9bd1fbfc43a5bba3bef2b3b622a3a8383e820f65847d00",
+      "path": ".cursor/agents/stamity-reviewer.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "security",
+      "artifactType": "agent",
+      "contentHash": "f90f648c8c90190111f5daf6b98a4a9478b5ba5aa9daa74abab7adb9bee53f7d",
+      "path": ".cursor/agents/stamity-security.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "spec-author",
+      "artifactType": "agent",
+      "contentHash": "0d9336d97be3411e7f6e11c5cb685e8c92d840dc707ad0d541adea3bf865db47",
+      "path": ".cursor/agents/stamity-spec-author.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "test-runner",
+      "artifactType": "agent",
+      "contentHash": "2fec5976cfb47e2d5c0063c48f42d3891e58e143086c732c7e081f670578f533",
+      "path": ".cursor/agents/stamity-test-runner.md"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-hooks-config",
+      "artifactType": "infra",
+      "coOwned": {
+        "createdFile": true,
+        "elements": {
+          "/hooks/beforeMCPExecution": [
+            "ed67bfd54e8f1d43121a4b99ef247168554104467417c7a5dad60fc017413fcb"
+          ],
+          "/hooks/beforeShellExecution": [
+            "d250e02b5963da63628455e3f6ee5d3d8b3ec80a3a22ee61c308450f560422c9"
+          ],
+          "/hooks/postToolUse": [
+            "b54c098d6f218e9f675016593681ad93c3900489b1b6ed65a88c058afa20a43c"
+          ],
+          "/hooks/preToolUse": [
+            "53f88b61be275bd8aa297c2c1e13ed1b6206ad313320189948c5a28893a92e81",
+            "1122e7c4fa7db59972b9f2afb2e5d7d3ad152df56bfd6439fd7b4723f7e72cfe",
+            "f82f1a7c02d99e9a3c7ba43a65c6e7253ac806730a4f2656fadfdf012b37f301"
+          ],
+          "/hooks/sessionStart": [
+            "caa9a3da000d703e5eb6ad5c137484a44f60d6b3293a284a411eda0e75840c65",
+            "b7f91a95cc763d79314b452b6a38667ffb2a01aa32e5ea776b9e4016892a3851"
+          ],
+          "/hooks/stop": [
+            "3c28f18f951b9d219c8b0fe9fce19a6abb7f4924c941f403873d5ff5adb32472"
+          ],
+          "/hooks/subagentStart": [
+            "62deb21226a7352579de31f0c071600a64f3b4eacaffda38bb7fde7cdce08ce1"
+          ]
+        },
+        "members": {
+          "/version": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        }
+      },
+      "contentHash": "136d469df20f50f747e28e8e1a5ce4a2e5705986acea51652ed83035363caa8f",
+      "path": ".cursor/hooks.json"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-mcp-guard",
+      "artifactType": "infra",
+      "contentHash": "a340c2f9e47fa0041f75143a3ad1208205d0d77c1fe7dfbd6b7b4c568ba4755f",
+      "path": ".cursor/hooks/stamity-mcp-guard.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-subagent-guard",
+      "artifactType": "infra",
+      "contentHash": "cfee6477fb39134bb3483799eed7ed1a53054719084ba13422ddf58f5ddd34cc",
+      "path": ".cursor/hooks/stamity-subagent-guard.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "ai-evals",
+      "artifactType": "rule",
+      "contentHash": "402253ef486f95a09da3f1d9fd1ee4147b90db1e742566fbd5c38f6170d6938b",
+      "path": ".cursor/rules/stamity-ai-evals.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "api-versioning",
+      "artifactType": "rule",
+      "contentHash": "5f582c602434db96d06f806d24bc6e5b4c0b28542dba322c08c0b10db6aaa34f",
+      "path": ".cursor/rules/stamity-api-versioning.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "contract-census",
+      "artifactType": "rule",
+      "contentHash": "532217108950645cb080b5c2c84aaf5720da15db421800ffb8cda8f5beaa264d",
+      "path": ".cursor/rules/stamity-contract-census.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "injection-screening",
+      "artifactType": "rule",
+      "contentHash": "1540768cdb380de97d1dee8e2eccbcefb54bf8ede5ad7826e9b8ff7bd1c63fc7",
+      "path": ".cursor/rules/stamity-injection-screening.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "learnings-schema",
+      "artifactType": "rule",
+      "contentHash": "f28d98e76d473b4a4eb43b10873d6f7c81e72e0ca93e2a0f5709c24bce67edab",
+      "path": ".cursor/rules/stamity-learnings-schema.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "migrations",
+      "artifactType": "rule",
+      "contentHash": "c717d57d0d70a45e178138832e65d51537a0dd8b0e84bbf4bd0cfcf0b574f0ed",
+      "path": ".cursor/rules/stamity-migrations.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "question-protocol",
+      "artifactType": "rule",
+      "contentHash": "a34ceb0d8f1db050b3716548d1277aaf41d35e021cfdba1b55e0f3cf866d06de",
+      "path": ".cursor/rules/stamity-question-protocol.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "resilience",
+      "artifactType": "rule",
+      "contentHash": "3fe9757aa442903b52cc5f32754ce3d6fe21afdb44ec0f48d9369bf482108f47",
+      "path": ".cursor/rules/stamity-resilience.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "secrets",
+      "artifactType": "rule",
+      "contentHash": "ddb1d0956c519ba7b3b6c36a47ae9af7c0180206e06d3c2179cbd08cfec47437",
+      "path": ".cursor/rules/stamity-secrets.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "security-patterns",
+      "artifactType": "rule",
+      "contentHash": "cb06fff62f42ec6f32b83926041d03b75067c73d18fa8eeb8cfd55d49d0e76a3",
+      "path": ".cursor/rules/stamity-security-patterns.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "testing",
+      "artifactType": "rule",
+      "contentHash": "b1e6ccf40fbc412f50906738e91daba2852e6c893ee201d43c1408397cef3a78",
+      "path": ".cursor/rules/stamity-testing.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "ui-states",
+      "artifactType": "rule",
+      "contentHash": "3c80c0c1f3d61d337020b6b9a1de0da33ff4d9aed77d6194c345c50e8e2b9028",
+      "path": ".cursor/rules/stamity-ui-states.mdc"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "agent-tool-policies",
+      "artifactType": "infra",
+      "contentHash": "61acfa9a7ed7fdd035dd9fd34939bdd73bb6085baca7bf15174948e2583558b3",
+      "path": ".stamity/generated/agent-tool-policies.json"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "stamity-config-tamper-notice",
+      "artifactType": "infra",
+      "contentHash": "71fa9065ca2f291d53a86d0e620844821833dd8ff3f5ea7c9a8389bc3504306e",
+      "path": ".stamity/generated/hooks/cursor/stamity-config-tamper-notice.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-context-once",
+      "artifactType": "infra",
+      "contentHash": "c74c1b3d2cd908b170c48a8813bd05cc91f058210789a9b2f815b731a2eb6ccd",
+      "path": ".stamity/generated/hooks/cursor/stamity-context-once.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-continue",
+      "artifactType": "infra",
+      "contentHash": "08bc51855553f4104a80fbe1ea94ba36a95173e005846467e4af5c643bb26a60",
+      "path": ".stamity/generated/hooks/cursor/stamity-cursor-continue.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-model-pins",
+      "artifactType": "infra",
+      "contentHash": "fc71eb522ff67fd73ff00820d0e59495bca188d2e30fc9a26ce85e89fff6fdd5",
+      "path": ".stamity/generated/hooks/cursor/stamity-model-pins.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "stamity-person-only-guard",
+      "artifactType": "infra",
+      "contentHash": "ca2054dc323b516e7ade9997ddda45a349fb734fe60bddcde4be9773b293e9d7",
+      "path": ".stamity/generated/hooks/cursor/stamity-person-only-guard.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-portable-hook",
+      "artifactType": "infra",
+      "contentHash": "4bc31f0f2dbdec29a6537dab00d8df9255641b7ee5bed365d3020ce6ac72c12c",
+      "path": ".stamity/generated/hooks/cursor/stamity-portable-hook.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "stamity-pre-tool-use-guard",
+      "artifactType": "infra",
+      "contentHash": "003c68296234c03d71ac66870914df2998ecd2f08f1346c89f5b4b13d969a650",
+      "path": ".stamity/generated/hooks/cursor/stamity-pre-tool-use-guard.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "stamity-session-start",
+      "artifactType": "infra",
+      "contentHash": "1111332a1630ed4dcb42e421b2326c5dd423a358e3c92bf8cb367e212a7a996d",
+      "path": ".stamity/generated/hooks/cursor/stamity-session-start.mjs"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "cursor-model-map",
+      "artifactType": "infra",
+      "contentHash": "6e108834236741075e1d082bba6be814bc0bf04642622c860a6b7e43c348bdbd",
+      "path": ".stamity/generated/models/cursor.json"
+    },
+    {
+      "adapter": "cursor",
+      "artifactId": "charter",
+      "artifactType": "infra",
+      "contentHash": "df04b4a33c3b0a558fd6bd7e2e0bc3ba030d76825498aa29308ce5f7d1865a91",
+      "path": "AGENTS.md"
+    }
+  ],
+  "hooks": {
+    "userHooksDir": "qa-hooks"
+  },
+  "detected": {
+    "ciProviders": [],
+    "languages": [],
+    "linters": [],
+    "testFrameworks": []
+  }
+}

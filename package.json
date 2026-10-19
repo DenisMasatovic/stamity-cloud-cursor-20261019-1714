@@ -1,0 +1,11 @@
+{
+  "name": "stamity-cloud-check",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@zomarit/stamity": "file:./zomarit-stamity-1.15.0.tgz"
+  }
+}

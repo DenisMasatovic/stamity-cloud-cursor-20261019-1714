@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-portable-hook.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InNlc3Npb25fc3RhcnQiLCJjb21tYW5kIjpbIm5vZGUiLCIuc3RhbWl0eS9nZW5lcmF0ZWQvaG9va3MvY3Vyc29yL3N0YW1pdHktc2Vzc2lvbi1zdGFydC5tanMiXSwidGltZW91dE1zIjozMDAwMH0",
+        "timeout": 30
+      },
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-portable-hook.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InNlc3Npb25fc3RhcnQiLCJjb21tYW5kIjpbIm5vZGUiLCIuc3RhbWl0eS9nZW5lcmF0ZWQvaG9va3MvY3Vyc29yL3N0YW1pdHktY29uZmlnLXRhbXBlci1ub3RpY2UubWpzIl0sInRpbWVvdXRNcyI6MzAwMDB9",
+        "timeout": 30
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-portable-hook.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InByZV90b29sX3VzZSIsImNvbW1hbmQiOlsibm9kZSIsIi5zdGFtaXR5L2dlbmVyYXRlZC9ob29rcy9jdXJzb3Ivc3RhbWl0eS1wcmUtdG9vbC11c2UtZ3VhcmQubWpzIl19"
+      },
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-portable-hook.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InByZV90b29sX3VzZSIsImNvbW1hbmQiOlsibm9kZSIsInFhLWhvb2tzL2RlY2lzaW9uLm1qcyJdfQ",
+        "failClosed": true
+      },
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-model-pins.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InByZV90b29sX3VzZSIsImNvbW1hbmQiOlsibm9kZSIsIi5zdGFtaXR5L2dlbmVyYXRlZC9ob29rcy9jdXJzb3Ivc3RhbWl0eS1tb2RlbC1waW5zLm1qcyJdfQ",
+        "matcher": "Task"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-context-once.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InBvc3RfdG9vbF91c2UiLCJjb21tYW5kIjpbIm5vZGUiLCIuc3RhbWl0eS9nZW5lcmF0ZWQvaG9va3MvY3Vyc29yL3N0YW1pdHktY29udGV4dC1vbmNlLm1qcyJdfQ"
+      }
+    ],
+    "stop": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-cursor-continue.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InN0b3AiLCJjb21tYW5kIjpbIm5vZGUiLCIuc3RhbWl0eS9nZW5lcmF0ZWQvaG9va3MvY3Vyc29yL3N0YW1pdHktY3Vyc29yLWNvbnRpbnVlLm1qcyJdfQ",
+        "loop_limit": 50
+      }
+    ],
+    "subagentStart": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.cursor/hooks/stamity-subagent-guard.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InByZV90b29sX3VzZSIsImNvbW1hbmQiOlsibm9kZSIsIi5jdXJzb3IvaG9va3Mvc3RhbWl0eS1zdWJhZ2VudC1ndWFyZC5tanMiXX0",
+        "failClosed": true
+      }
+    ],
+    "beforeMCPExecution": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.cursor/hooks/stamity-mcp-guard.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InByZV90b29sX3VzZSIsImNvbW1hbmQiOlsibm9kZSIsIi5jdXJzb3IvaG9va3Mvc3RhbWl0eS1tY3AtZ3VhcmQubWpzIl19",
+        "failClosed": true
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "node -e \"const fs=require('node:fs'),p=require('node:path'),cp=require('node:child_process');let d=process.cwd();const e=process.env.CURSOR_PROJECT_DIR;if(e&&fs.existsSync(p.join(e,'.cursor','hooks.json')))d=e;for(;;){if(fs.existsSync(p.join(d,'.cursor','hooks.json'))){const f=p.join(d,'.stamity/generated/hooks/cursor/stamity-person-only-guard.mjs');if(!fs.existsSync(f)){process.stderr.write('Stamity hook script missing beside .cursor/hooks.json; run npx -y @zomarit/stamity@1.15.0 sync');process.exitCode=1;break;}const r=cp.spawnSync(process.execPath,[f,...process.argv.slice(1)],{stdio:[0,1,2]});process.exitCode=r.status??1;break;}const up=p.dirname(d);if(up===d){process.stderr.write('Stamity hook project root not found');process.exitCode=1;break;}d=up;}\" eyJldmVudCI6InByZV90b29sX3VzZSIsImNvbW1hbmQiOlsibm9kZSIsIi5zdGFtaXR5L2dlbmVyYXRlZC9ob29rcy9jdXJzb3Ivc3RhbWl0eS1wZXJzb24tb25seS1ndWFyZC5tanMiXX0",
+        "failClosed": true
+      }
+    ]
+  }
+}
